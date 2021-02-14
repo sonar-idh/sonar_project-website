@@ -1,0 +1,686 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SoNAR (IDH) – Interfaces to Data for Historical Social Network Analysis and Research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SoNAR (IDH), Interfaces to Data for Historical Social Network Analysis and Research, will examine and evaluate approaches to build and operate an advanced research technology environment supporting Historical Network Analysis and related
+    research. Project partners from various fields – historiography, information visualization, artificial intelligence and computer sciences as well as information science – work on this topic from their respective perspective." />
+  <meta property="og:url" content="https://sonar.fh-potsdam.de" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SoNAR (IDH) – Interfaces to Data for Historical Social Network Analysis and Research" />
+  <meta property="og:description" content="SoNAR (IDH), Interfaces to Data for Historical Social Network Analysis and Research, will examine and evaluate approaches to build and operate an advanced research technology environment supporting Historical Network Analysis and related
+    research. Project partners from various fields – historiography, information visualization, artificial intelligence and computer sciences as well as information science – work on this topic from their respective perspective." />
+  <meta property="og:image" content="https://sonar.fh-potsdam.de/assets/img/metatag-screenshot.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SoNAR (IDH) – Interfaces to Data for Historical Social Network Analysis and Research">
+  <meta name="twitter:description" content="SoNAR (IDH), Interfaces to Data for Historical Social Network Analysis and Research, will examine and evaluate approaches to build and operate an advanced research technology environment supporting Historical Network Analysis and related
+    research. Project partners from various fields – historiography, information visualization, artificial intelligence and computer sciences as well as information science – work on this topic from their respective perspective.">
+  <meta name="twitter:image" content="https://sonar.fh-potsdam.de/assets/img/metatag-screenshot.jpg">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="assets/libs/d3.v5.min.js"></script>
+
+</head>
+
+<body>
+  <svg id="visualization" width="100%" height="100%" preserveAspectRatio="xMidYMid" viewBox="-750 -150 1000 1000"></svg>
+  <header>
+    <div class="container">
+      <div class="header">
+
+
+        <h1>SoNAR (IDH)</h1>
+        <h2>Interfaces to Data for Historical Social Network Analysis and Research</h2>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+
+
+    <section class="about">
+      <div class="container">
+
+        <div class="introtitle startingpointTitle">
+          <p>Starting point</p>
+        </div>
+
+        <div class="introcontent startingpointContent">
+          <p>The analysis of relationships between agents is key to understanding and explaining social phenomena. A lack of knowledge about the availability of suitable data, but also of relevant analysis technologies are frequently factors
+            restraining the study of past events. In the last decades, cultural heritage organisations have produced an abundance of machine-readable data: (bibliographic and archival) metadata, full text collections, and sets of authority records
+            contain multitudes of implicit and explicit statements about social relations.</p>
+        </div>
+
+        <div class="introtitle objectiveTitle">
+          <p>Objective</p>
+        </div>
+
+        <div class="introcontent objectiveContent">
+          <p>SoNAR (IDH), Interfaces to Data for Historical Social Network Analysis and Research, will examine and evaluate approaches to build and operate an advanced research technology environment supporting Historical Network Analysis and related
+            research. Project partners from various fields – historiography, information visualization, artificial intelligence and computer sciences as well as information science – work on this topic from their respective perspective.</p>
+        </div>
+
+        <div class="introtitle wpTitle">
+          <p>Work packages</p>
+        </div>
+
+        <div class="introcontent wpContent">
+          <!-- <p>We will focus on particular aspects of the prospective research technology:</p> -->
+          <ol>
+            <li><span class="texthighlight" id="wp1">Data preparation:</span> creating automated methods of extracting entities and relations from bibliographic and archival metadata, full texts, and authority data <a class="wpLink"
+                href="#DFKI">→&nbsp;DFKI</a></li>
+
+
+            <li><span class="texthighlight">Data management:</span> ensuring the data complies with scientific requirements such as reproducibility of results, persistence of statements, and transparency of data provenance <a class="wpLink"
+                href="#DFKI">→&nbsp;DFKI</a></li>
+
+
+            <li><span class="texthighlight" id="wp2">Research design:</span> case-study based testing and evaluating of methods of Social Network Analysis with data prepared by promising components of the research technology <a class="wpLink"
+                href="#HHU">→&nbsp;HHU</a></li>
+
+
+            <li><span class="texthighlight" id="wp3">Visualization and interface design:</span> an investigation of approaches to develop innovative concepts for interacting with data and visualizing graphs
+              <a class="wpLink" href="#FHP">→&nbsp;FHP</a></li>
+
+
+            <li><span class="texthighlight" id="wp4">Evaluation and quality assurance:</span> analysing and evaluating the quality of (interim) results of work packages 1–4
+              <a class="wpLink" href="#HU">→&nbsp;HU</a></li>
+
+
+            <li><span class="texthighlight" id="wp5">Implementation:</span> developing a concept for building and maintaining an adaptable research technology environment based on the results of work packages 1–5
+              <a class="wpLink" href="#SBB-PK">→&nbsp;SBB</a></li>
+
+          </ol>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- <section class="activities">
+      <div class="container">
+
+        <div class="activitiesTitle">
+          <p>Activities</p>
+        </div>
+
+        <div class="introtitle activities">
+          <p>3 September 2020</p>
+        </div>
+
+        <div class="introcontent activitiesContent">
+          <p><span class="bold">Conference talk</span> at <a class="activitiesLink" href="https://sites.google.com/view/eshsbologna2020/">The 9th International Conference of the European Society for the History of Science (ESHS) – Visual, Material and Sensory Cultures of Science</a> in Bologna, Italy (virtually).</p>
+      </div>
+
+
+      <div class="introtitle activities">
+        <p>6 July 2020</p>
+      </div>
+
+      <div class="introcontent activitiesContent">
+        <p><span class="bold">Project partner meeting</span> at FH Potsdam (virtually).</p>
+    </div>
+
+        <div class="introtitle activities">
+          <p>2–6 March 2020</p>
+        </div>
+
+        <div class="introcontent activitiesContent">
+          <p><span class="bold"><a class="activitiesLink" href="https://sonar.fh-potsdam.de/assets/documents/sonar_dhd2020-poster.pdf">Poster presentation</a></span> at <a class="activitiesLink" href="https://dhd2020.de/">DHd2020 - Spielräume: Digital Humanities zwischen Modellierung und Interpretation</a> in Paderborn.</p>
+      </div>
+
+
+      <div class="introtitle activities">
+        <p>21–22 Februrary 2020</p>
+      </div>
+
+      <div class="introcontent activitiesContent">
+        <p><span class="bold">Conference talk</span> at <a class="activitiesLink" href="https://graphentechnologien.hypotheses.org/tagungen/graphentechnologien-2020">Graph Technologies in the Humanities 2020</a> in Vienna, Austria.</p>
+    </div>
+
+    <div class="introtitle activities">
+      <p>13–14 Februrary 2020</p>
+    </div>
+
+    <div class="introcontent activitiesContent">
+      <p><span class="bold">Project partner meeting</span> at DFKI, Berlin.</p>
+  </div>
+
+    <div class="introtitle activities">
+      <p>16 September 2019</p>
+    </div>
+
+    <div class="introcontent activitiesContent">
+      <p><span class="bold">Co-design workshop</span> with HNA experts and projects partners at FH Potsdam.</p>
+  </div>
+
+
+    <div class="introtitle activities">
+      <p>8 July 2019</p>
+    </div>
+
+    <div class="introcontent activitiesContent">
+      <p><span class="bold">Project kick-off meeting</span> with project partners and associated partners at Staatsbibliothek zu Berlin.</p>
+
+    <br><br>  <p>Find more updates on Twitter under <a href="https://twitter.com/search?q=%23sonaridh">#sonaridh</a>.</p>
+  </div>
+
+
+
+  </section> -->
+
+  <section class="impressions">
+    <div class="impressioonscontainer">
+
+<div class="slideshowContent">
+      <div class="slideshow-container">
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow01.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow07.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow02.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow03.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow04.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow05.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<img src="assets/img/slideshow06.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+    <br>  <p>Find more updates on Twitter under <a href="https://twitter.com/search?q=%23sonaridh">#sonaridh</a>.</p>
+</div>
+
+</div>
+
+
+
+    </div>
+  </section>
+
+
+    <section class="partners">
+      <div class="container">
+
+        <div class="projectpartnersTitle">
+          <p>Project partners</p>
+        </div>
+
+
+        <div class="introtitle projectPartner" id="DFKI">
+          <p><a class="partnerLink" href="https://www.dfki.de">
+              Deutsches Forschungszentrum für Künstliche Intelligenz</p>
+              <a class="partnerLink" href="https://www.dfki.de"><img src="assets/logos/dfki.png" class="logos"></a>
+
+        </div>
+
+        <div class="introcontent projectPartnerContent">
+          <p>Our mission is to advance the use of human languages by machines and to create and improve IT-solutions that benefit from language use.</p>
+
+          <ul>
+            <li>
+              We conduct advanced research in language technology and provide novel computational techniques for processing text, speech and knowledge.
+            </li>
+            <li>
+              We strive for a deeper understanding of human language and thought, studying the true needs of the end user and the demands of the market.
+            </li>
+            <li>
+              We develop novel and enhanced solutions related to information and knowledge management, content production, and natural communication.
+            </li>
+          </ul>
+          <p>Key areas of activity include text analytics, machine translation, human-robot interaction and digital content creation.</p>
+          <!-- <p>Work package: <a class="wpLink" href="#wp1">Data Preparation and Management</a></p> -->
+          <p><span class="bold">Dr. Georg Rehm</span>, Principal Researcher and DFKI Research Fellow</p>
+          <p><span class="bold">Elena Leitner</span>, Dipl.-Germ., Research Associate</p>
+          <p><span class="bold">Melina Plakidis</span>, Research Associate</p>
+          <p><span class="bold">Dr. Julian Moreno Schneider</span>, Dipl.-Ing., Research Associate</p>
+        </div>
+
+
+
+        <div class="introtitle projectPartner" id="FHP">
+          <p><a class="partnerLink" href="http://uclab.fh-potsdam.de">
+              Fachhochschule Potsdam
+              <img src="assets/logos/fhp.svg" class="logos"></a>
+          </p>
+        </div>
+
+        <div class="introcontent projectPartnerContent">
+          <p>The <a href="http://uclab.fh-potsdam.de">UCLAB</a> at <a href="https://www.fh-potsdam.de/">Fachhochschule Potsdam</a> is an interdisciplinary visualization research group situated between design, computing, and the humanities. Our work
+            revolves around information visualization
+            with a particular focus on the challenges and questions arising from social, cultural, and technological transformations. Our mission is to make sense of comprehensive datasets and complex issues by developing creative and critical
+            approaches to visualization. All our research is collaborative in nature.
+            The lab itself is a collaboration between the <a href="https://design.fh-potsdam.de">Department of Design</a> and the <a href="https://www.fh-potsdam.de/forschen/urbane-zukunft/">Institute for Urban Futures</a>.
+            At the junction of design teaching and visualization research, we strive to have an impact in both academia and the world of practice. </p>
+          <!-- <p>Work package: <a class="wpLink" href="#wp3">Visualization and Interface Design</a></p> -->
+          <p><span class="bold">Prof. Dr. Marian Dörk</span>, Research Professor</p>
+          <p><span class="bold">Mark-Jan Bludau</span>, M.A., Research Associate</p>
+
+        </div>
+
+
+
+
+        <div class="introtitle projectPartner" id="HU">
+          <p><a class="partnerLink" href="https://www.ibi.hu-berlin.de">
+              Humboldt-Universität zu Berlin<br>
+              <img src="assets/logos/hu.svg" class="logos"></a>
+          </p>
+        </div>
+
+        <div class="introcontent projectPartnerContent">
+          <p>As the only German department on the university level in the field of Library and Information Science, the Berlin School researches and teaches at the intersection between people, information and technology. The <a href="https://www.ibi.hu-berlin.de/de/forschung/information_retrieval">Information Retrieval
+            research group</a> of the <a href="https://www.ibi.hu-berlin.de/en">Berlin School of Library and Information Science</a> focuses particularly on applied research projects in information retrieval evaluation, interactive information retrieval,
+            multilingual retrieval, knowledge
+            organization for improved information organization and search as well as problems of heterogeneity and interoperability of information systems and information structures.</p>
+          <!-- <p>Work package: <a class="wpLink" href="#wp4">Evaluation and Quality Assurance</a></p> -->
+          <p><span class="bold">Prof. Vivien Petras</span>, Ph.D., Professor</p>
+          <p><span class="bold">Hannes Schnaitter</span>, M.A., Research Associate</p>
+          <p><span class="bold">Sandra Balck</span>, M.A., Research Associate</p>
+          <p><span class="bold">Josefine Zinck</span>, Student Research Assistant</p>
+          <p style="font-style:italic"><span class="bold">Sina Menzel</span>, M.A., former Research Associate (July 2019 – August 2020)</p>
+        </div>
+
+
+
+
+        <div class="introtitle projectPartner" id="SBB-PK">
+          <p><a class="partnerLink" href="https://staatsbibliothek-berlin.de/en/">
+              Staatsbibliothek zu Berlin<br>
+              <img src="assets/logos/sbb-pk.png" class="logos"></a>
+        </div>
+
+        <div class="introcontent projectPartnerContent">
+          <p>Founded in 1661, the Berlin State Library is a centre of national and international research with eminent holdings today. Bibliographic services like the <a class="wpLink" href="https://zdb-katalog.de/index.xhtml">Union Catalogue of
+              Serials</a> and the <a class="wpLink" href="http://kalliope.staatsbibliothek-berlin.de/en/index.html">Kalliope Union Catalog</a> for Archival Holdings are a backbone for customer-related services of libraries, archives, and museums
+            across the country and beyond. With our partners, we design and carry out projects to test innovative technologies and methods for enhancing data-related services continually.</p>
+          <!-- <p>Work package: <a class="wpLink" href="#wp5">Project coordination and concept development</a></p> -->
+          <p><span class="bold">Gerhard Müller</span>, Head of Division (Kalliope Union Catalog)</p>
+          <p><span class="bold">Clemens Neudecker</span>, Research Adviser</p>
+          <p><span class="bold">Felix Ostrowski</span>, M.A., Research Associate</p>
+          <p><span class="bold">Larissa Schmid</span>, M.A., Research Associate</p>
+          <p><span class="bold">Michael Czolkoss-Hettwer</span>, M.A., Research Associate</p>
+          <p style="font-style:italic"><span class="bold">David Zellhöfer</span>, Head of Division: Software and Data Management (July 2019 – August 2020)</p>
+        </div>
+
+
+
+
+        <div class="introtitle projectPartner" id="HHU">
+          <p><a class="partnerLink" href="https://www.uniklinik-duesseldorf.de/en/department-of-the-history-philosophy-and-ethics-of-medicine">
+              Heinrich-Heine-Universität Düsseldorf<br>
+              <img src="assets/logos/hhu.svg" class="logos"></a></p>
+        </div>
+
+        <div class="introcontent projectPartnerContent">
+          <p>The <a class="wpLink" href="https://www.uniklinik-duesseldorf.de/en/department-of-the-history-philosophy-and-ethics-of-medicine">Department of the History, Philosophy and Ethics of Medicine</a> is an institute dedicated to research and
+            education on a wide spectrum of medical theory and practice. We research and teach the history and ethics of medicine, as well as medical theory and philosophy of science. Our research connects the history of medicine and the life
+            sciences to modern questions about philosophy and medical ethics. By exploring the social and cultural dimensions of medicine, we connect biomedical research to the humanities and social sciences. General themes: Science studies in
+            Medicine, historical network analyses in medicine; public health ethics; mechanization and quantification in medicine; history of diagnostics; social history of medicine; research ethics; stem cell ethics.</p>
+          <!-- <p>Work package: <a class="wpLink" href="#wp2">Historical Network Analysis Research Approaches</a></p> -->
+          <p><span class="bold">Univ.-Prof. Dr. Heiner Fangerau</span>, Research Professor</p>
+          <p><span class="bold">Thorsten Halling</span>, M.A., Research Associate</p>
+          <p><span class="bold">PD Dr. Michael Schneider</span>, <a class="wpLink" href="http://www.geschichte.hhu.de/en/chairs/economic-history/headsecretarys-office.html">HHU, Economic History</a> (2nd Use Case)</p>
+          <p><span class="bold">Dr. Eva Maria Holly</span>, Research Associate</p>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <section class="associatedpartners">
+      <div class="container">
+        <div class="projectpartnersTitle">
+          <p>Associated partners</p>
+        </div>
+        <div class="partnercontainer">
+
+
+
+
+
+
+          <div class="projectAssociates">
+            <p class="paLink"><a class="wpLink" href="https://www.gsta.spk-berlin.de/">Geheimes Staatsarchiv – Preußischer Kulturbesitz</a></p>
+
+            <p>Function: Consulting on Archival Description and Community communication</p>
+            <p><span class="bold">Dr. Susanne Brockfeld</span>, Head of Department</p>
+
+          </div>
+
+
+
+
+
+          <div class="projectAssociates">
+            <p class="paLink"><a href="http://lettres.univ-lemans.fr/fr/index.html">Le Mans Université, Faculté de Lettres</a></p>
+
+            <p>Function: Consulting on Digital Edition and Access to Data</p>
+            <p><span class="bold">Dr. Anne Baillot</span>, Professeur des Universités</p>
+
+            <!-- <p> <a class="wpLink" href="http://3lam.univ-lemans.fr/fr/index.html">http://3lam.univ-lemans.fr/fr/index.html</a></p> -->
+          </div>
+
+
+
+          <div class="projectAssociates">
+            <p class="paLink"><a class="wpLink" href="https://www.c2dh.uni.lu/">Université du Luxembourg, Center for Contemporary and Digital History</a></p>
+
+            <p>Function: Consulting on Historical Network Analysis Methodologies</p>
+            <p><span class="bold">Dr. Marten Düring</span>, Assistant Prof./Sr. Research scientist</p>
+
+          </div>
+
+          <div class="projectAssociates">
+            <p class='paLink'><a href="https://www.library.virginia.edu/">University of Virginia Library</a>, <a href="https://snaccooperative.org/">Dep. of Social Networks and Archival Context Cooperative</a></p>
+            <p>Function: Consulting on Archival Description and Data Exchange Approaches</p>
+            <p><span class="bold">Daniel Pitti</span>, Director (Social Networks and Archival Context Cooperative)</p>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="about">
+      <div class="container">
+
+        <div class="introtitle datasourcesTitle">
+          <p>Data sources</p>
+        </div>
+
+        <div class="introcontent datasourcesContent">
+          <p>A set of diverse data repositories will be utilised to test technologies and to evaluate approaches to collect, prepare, and provide data for Historical Network Analysis and related research:</p>
+
+          <p class="bold">German National Library</p>
+          <ul>
+            <li><a href="https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html"> Authority File</a>: authority records about persons, corporate bodies and conferences, geographical names, subject headings, and work titles</li>
+            <li><a href="https://www.dnb.de/EN/Sammlungen/DEA/Exilpresse/dea-exilpresse_node.html">The German Exile Archive 1933–1945</a> of the German National Library: rare serials published by German migrants between 1933 to 1945</li>
+          </ul>
+
+          <p class="bold">Humboldt-Universität zu Berlin, Berliner Intellektuelle um 1800 (Dr. Anne Baillot, Le Mans)</p>
+          <ul>
+            <li><a href="https://www.berliner-intellektuelle.eu/">19th century letters</a>: full texts of letters and related authority records</li>
+          </ul>
+
+          <p class="bold">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</p>
+          <ul>
+            <li><a href="http://kalliope-verbund.info/en/index.html">Kalliope Union Catalog</a>: finding aids and related authority records about archival holdings, in particular personal papers and manuscript collections</li>
+            <li><a href="http://zefys.staatsbibliothek-berlin.de/index.php?id=start&L=1">Historical Newspapers</a>: full text of historical newspapers from the collections of the Berlin State Library</li>
+            <li><a href="https://zdb-katalog.de/index.xhtml">Union Catalogue of Serials</a>: metadata about serials and related authority records, e.g., mainly journals and newspapers</li>
+          </ul>
+
+          <p class="bold">University of Virginia Library, Dep. of Social Networks and Archival Context Cooperative</p>
+          <ul>
+            <li><a href="https://snaccooperative.org/">Social Networks and Archival Context</a>: authority records of persons, corporate bodies, and families linked with archival finding aids maintained by holding organizations</li>
+          </ul>
+
+
+          <p>Data will be used only for the project and cannot be provided to 3rd parties.</p>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    </div>
+  </main>
+
+  <footer>
+    <p>The project runs from July 2019 to September 2021 and<br> is funded by <a href="https://gepris.dfg.de/gepris/projekt/414792379">German Research Foundation.</a><br><a href="assets/documents/SoNAR_grant-application.pdf">Grant application (German)</a></p>
+    <a href="https://gepris.dfg.de/gepris/projekt/414792379"><img src="assets/logos/dfg.svg" class="dfgLogo"></a><br>
+
+    <p class="bold"> <a href="mailto:Gerhard.Mueller@sbb.spk-berlin.de"><span>Contact us</span></a> | <a href="https://www.fh-potsdam.de/impressum/"><span>Imprint & Privacy</span></a> </p>
+
+  </footer>
+
+
+
+  <script>
+    var width = 500,
+      height = 500;
+
+
+    // function randomIntFromInterval(min,max) // min and max included
+    // {
+    //     return Math.floor(Math.random()*(max-min+1)+min);
+    // }
+
+
+    var n = 120, // number of nodes (120) randomIntFromInterval(100, 200)
+      m = 100, // number of links (100) randomIntFromInterval(80, 150)
+      charge = -1000;
+
+    var svg = d3.select("#visualization")
+
+
+    create();
+
+    function create() {
+      svg.selectAll(".link, .node").remove();
+      randomGraph(n, m, charge);
+    }
+
+
+
+
+    function randomGraph(n, m, charge) { //creates a random graph on n nodes and m links
+      var nodes = d3.range(n).map(Object),
+        list = randomChoose(unorderedPairs(d3.range(n)), m),
+        links = list.map(function(a) {
+          return {
+            source: a[0],
+            target: a[1]
+          }
+        });
+
+      var simulation = d3.forceSimulation()
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .nodes(nodes)
+        .force("link", d3.forceLink(links).id(function(d) {
+          return d.index;
+        }))
+        .force('charge', d3.forceManyBody().strength(-20))
+        .force('collide', d3.forceCollide().radius(2).strength(5))
+        .on("tick", tick);
+
+
+
+      function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
+
+      function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+      }
+
+      function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.01);
+        d.fx = null;
+        d.fy = null;
+      }
+
+
+
+      var svgLinks = svg.selectAll(".link").data(links)
+        .enter().append("line")
+        .attr("class", "link");
+
+      var svgNodes = svg.selectAll(".node").data(nodes)
+        .enter().append("circle")
+        .attr("class", "node")
+        .attr("r", 3)
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+      svgNodes
+        .attr("r", function(d) {
+          d.weight = svgLinks.filter(function(l) {
+            return l.source.index == d.index || l.target.index == d.index
+          }).size();
+          var minRadius = 2;
+          return minRadius + (d.weight * 3);
+        })
+
+      svgLinks.transition().duration(800)
+        .style("stroke-width", 3);
+
+
+      var degreeMax = 0
+      nodes.forEach(function(d, i) {
+        if (d.weight > degreeMax) {
+          degreeMax = d.weight
+        }
+      })
+
+
+      function tick() {
+        if (simulation.alpha() < 0.01) {
+          simulation.stop()
+        }
+
+        svgNodes
+          .attr("cx", function(d) {
+            return d.x
+          })
+          .attr("cy", function(d) {
+            return d.y
+          });
+
+
+        svgLinks
+          .attr("x1", function(d) {
+            return d.source.x
+          })
+          .attr("y1", function(d) {
+            return d.source.y
+          })
+          .attr("x2", function(d) {
+            return d.target.x
+          })
+          .attr("y2", function(d) {
+            return d.target.y
+          })
+          .style("stroke-dasharray", function(d, i) {
+            if (i % 5 === 0) {
+              return "0.1 8"
+            }
+          })
+          .style("stroke-linecap", "round")
+          .style("stroke", "rgb(221, 106, 0)");
+      }
+    }
+
+
+
+
+
+    function randomChoose(s, k) { // returns a random k element subset of s
+      var a = [],
+        i = -1,
+        j;
+      while (++i < k) {
+        j = Math.floor(Math.random() * s.length);
+        a.push(s.splice(j, 1)[0]);
+      };
+      return a;
+    }
+
+    function unorderedPairs(s) { // returns the list of all unordered pairs from s
+      var i = -1,
+        a = [],
+        j;
+      while (++i < s.length) {
+        j = i;
+        while (++j < s.length) a.push([s[i], s[j]])
+      };
+      return a;
+    }
+
+
+
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+
+
+  </script>
+</body>
+
+</html>
